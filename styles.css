@@ -159,6 +159,10 @@ hr{
 }
 
 @media screen and (max-width:600px) { 
+    header{
+        height: 25vh;
+    }
+    
     header p{
         font-size: 1rem;
         padding-top: 7%;
