@@ -1,0 +1,258 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center; 
+    font-family: "Helvetica Neue", Helvetica;
+    color:black;
+    background-color: #c0eeb7;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    color:rgb(192, 238, 183);
+    text-align: left;
+    background-color: black;
+    height: 40vh;
+}
+
+#icp{
+    height: fit-content;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1{
+    margin-left: 8%;
+    font-size: 3.5rem;
+    margin-bottom: 0;
+}
+
+header p{
+    margin-top: 0;
+    margin-left: 8%;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding-top: 2%; 
+}
+
+.container{
+    display: flex;
+    width: 90%;
+    margin-left: 10%;
+    align-items: center;
+}
+
+.container-right h2{
+    margin-bottom: 0;
+    font-size: 2.5em;
+}
+
+.container-right hr{
+    width: 60%;  
+    height: 3px;
+    background-color: black;
+}
+
+.container-right p{
+    font-size: 1.3rem;
+    display: inline-block;
+    width: 70%;
+}
+
+.container-right p a{
+    font-family: "Helvetica Neue", Helvetica;
+    color:black;
+}
+
+.arrow-btn{
+    margin-top: 30px;
+    width:4%;
+}
+
+.arrow-btn:hover{
+    transform: scaleY(1.3);
+}
+
+#profile-photo{
+    width: 200px;
+    padding-top: 5%;
+}
+
+hr{
+    background-color: black;
+    height:1px;
+}
+
+.mySkills{
+    margin-top: 5%;
+}
+
+.skills-description{
+    font-size: 1.2rem;
+}
+
+.skill-row {
+    padding-top: 1%;
+    width: 65%;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    line-height: 1.3;
+}
+
+.skill-1, .skill-2, .skill-3, .skill-4{
+    display: flex;
+    align-items: center;
+}
+
+.skill-2, .skill-4{
+    flex-direction: row-reverse;  
+}
+
+.img1, .img3 {
+    margin-right: 5%;
+}
+
+.img2, .img4 {
+    margin-left: 5%;
+}
+
+.projects{
+    display: inline-flex;
+    justify-content:center;
+}
+
+.projects-screenshots{
+    width: 80%;
+    height: 200px;
+    border: 5px solid black;
+}
+
+.projects-screenshots-phone{
+    display: none;
+}
+
+.projects-screenshots:hover{
+    transform: scale(1.04);
+}
+
+.contact-me {
+    margin-top: 8%;
+    padding-bottom: 0%;
+}
+
+.img-logo{
+    width: 4%;
+    padding: 0 1% 2%;
+}
+
+.img-logo:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:600px) { 
+    header p{
+        font-size: 1rem;
+        padding-top: 7%;
+    }
+    
+    header h1{
+        font-size: 1.8rem;
+    }
+
+    #icp{
+        width: 30%;
+        padding-top: 20px;
+        padding-right: 20px;
+    }
+
+    .container{
+        display: block;
+        margin: 0 auto;
+        align-items: center;
+    }
+    
+    .container-right h2{
+        font-size: 1.5rem;
+    }
+
+    .container-right hr{  
+        height: 2px;
+    }
+    
+    .arrow-btn{
+        display: none;
+    }
+    
+    .first-hr{
+        margin-top: 2%;
+    }
+    
+    #profile-photo {
+        padding-top: 6%;
+        width: 25%;
+    }
+
+    .mySkills{
+        margin: 5% 0;
+    }
+    
+    h3{
+        display: none;
+    }
+    
+    .skills-description{
+        font-size: 1rem;
+    }
+   
+    .skill-row {
+        padding-top: 1%;
+        padding-bottom: 5%;
+        width: 60%;
+    }
+    
+    .skill-1, .skill-2, .skill-3, .skill-4{
+        display: block;
+    }
+    
+    .img1, .img2, .img3, .img4 {
+        width: 25%;
+        margin: 0;
+    }
+    
+    .screenshot{
+        width:40%;
+    }
+
+    .projects{
+        display: inline-flex;
+        justify-content:center;
+    }
+    
+    .projects-screenshots{
+        display: none;
+    }
+
+    .projects-screenshots-phone{
+        margin-top: 20px;
+        display:inline;
+        width: 60%;
+        border: 2px solid black;
+    }
+    
+    .contact-me {
+        margin-top: 10%;
+    }
+     
+    .img-logo{
+        width: 10%;
+    }
+}
