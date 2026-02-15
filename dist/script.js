@@ -5,6 +5,8 @@ window.addEventListener("DOMContentLoaded", function () {
         touchControls: true,
         gyroControls: false,
         color: 0x1f1f1f,
-        backgroundColor: 0x050505
+        backgroundColor: 0x050505,
+        minHeight: window.innerHeight,
+        minWidth: window.innerWidth
     });
 });
