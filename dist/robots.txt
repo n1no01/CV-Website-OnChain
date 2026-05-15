@@ -1,0 +1,52 @@
+# ====================================================================
+# GLOBALNO PRAVILO: Dozvoli svim botovima kompletan pristup i indeksiranje
+# ====================================================================
+User-agent: *
+Allow: /
+Disallow: # Ostavljeno prazno kako bi sve bilo dozvoljeno
+
+# ====================================================================
+# AEO OPTIMIZACIJA: Eksplicitna dozvola za vodeće AI i LLM botove
+# (Garantuje da AI pretraživači mogu čitati sajt i koristiti ga za odgovore)
+# ====================================================================
+
+# OpenAI (ChatGPT, SearchGPT)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic (Claude)
+User-agent: ClaudeBot
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Google AI (Gemini / Google AI mrežni crawler)
+User-agent: Google-Extended
+Allow: /
+
+# Apple (Apple Intelligence & Safari predlozi)
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Meta AI
+User-agent: MetaExternalAgent
+Allow: /
+
+# Cohere AI
+User-agent: cohere-ai
+Allow: /
+
+# ====================================================================
+# MAPA SAJTA (SITEMAP)
+# Zamijenite "tvojdomen.com" sa stvarnom adresom vašeg sajta.
+# Ovo je ključno kako bi botovi odmah pronašli sve vaše stranice.
+# ====================================================================
+Sitemap: https://ninoherenda.com/sitemap.xml
