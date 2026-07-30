@@ -4,48 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="keywords" content="Nino Herenda, Software Engineer, Portfolio">
-    <meta name="description" content="Portfolio website of Nino Herenda - Software Engineering Student from Sarajevo, Bosnia and Herzegovina.">
+    <meta name="keywords" content="Nino Herenda, Software Engineer, Portfolio, Web3, SEO">
+    <meta name="description" content="Portfolio website of Nino Herenda - Software Engineering Student & Developer from Sarajevo, Bosnia and Herzegovina.">
 
-    <meta property="og:title" content="Nino Herenda Portfolio">
-    <meta property="og:description" content="Software Engineering Student">
-    <meta property="og:image" content="images/preview.png">
-    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Nino Herenda | Software Engineer & Developer">
+    <meta property="og:description" content="Software Engineering Student focused on building reliable web applications, Web3 tools, and SEO solutions.">
+    <meta property="og:image" content="https://yourdomain.com/images/preview.png">
+    <meta property="og:type" content="website">
 
     <meta name="theme-color" content="#0f172a">
 
-    <title>Nino Herenda</title>
+    <title>Nino Herenda | Portfolio</title>
 
     <link rel="icon" href="images/developer.png">
 
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles.css">
+
+    <!-- Structured Data (Schema.org) -->
     <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Nino Herenda",
-  "jobTitle": "Software Engineering Student",
-  "url": "https://yourdomain.com",
-  "sameAs": [
-    "https://github.com/n1no01",
-    "https://www.linkedin.com/in/nino-herenda/"
-  ],
-  "knowsAbout": [
-    "Software Engineering",
-    "Web Development",
-    "JavaScript",
-    "SQL",
-    "Web3",
-    "SEO",
-    "Digital Marketing",
-    "Blockchain"
-  ],
-  "alumniOf": "Faculty of Information Technologies Mostar"
-}
-</script>
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Nino Herenda",
+      "jobTitle": "Software Engineering Student",
+      "url": "https://ninoherenda.com",
+      "sameAs": [
+        "https://github.com/n1no01",
+        "https://www.linkedin.com/in/nino-herenda/"
+      ],
+      "knowsAbout": [
+        "Software Engineering",
+        "Web Development",
+        "JavaScript",
+        "SQL",
+        "Web3",
+        "SEO",
+        "Digital Marketing",
+        "Blockchain"
+      ],
+      "alumniOf": "Faculty of Information Technologies Mostar"
+    }
+    </script>
 </head>
 
 <body>
@@ -59,12 +64,11 @@
     </header>
 
     <!-- HERO SECTION -->
-
     <section class="container">
 
         <img
             id="profile-photo"
-            src="images/Nino Herenda.png"
+            src="images/Nino.jpeg"
             alt="Profile photo of Nino Herenda"
         >
 
@@ -76,9 +80,8 @@
 
             <p>
                 Software engineering student focused on building reliable,
-                well-structured applications.
-                I enjoy working close to the code — learning how systems
-                are designed, implemented, and improved over time.
+                well-structured applications. I enjoy working close to the code — 
+                learning how systems are designed, implemented, and improved over time.
             </p>
 
             <div class="hero-buttons">
@@ -87,7 +90,7 @@
                     View Projects
                 </a>
 
-                <a href="Nino-Herenda-CV.pdf" class="btn secondary">
+                <a href="Nino_Herenda_CV.pdf" class="btn secondary" download>
                     Download CV
                 </a>
 
@@ -98,115 +101,96 @@
     </section>
 
     <!-- PROJECTS SECTION -->
-
     <section id="projects">
 
-        <h2>Some of My Projects</h2>
+        <h2>Featured Projects</h2>
 
         <div class="carousel">
 
-            <button class="carousel-btn prev">
+            <button class="carousel-btn prev" aria-label="Previous Project">
                 &#10094;
             </button>
 
             <div class="carousel-track">
 
                 <!-- PROJECT 1 -->
-
-                <a
-                    href="https://www.aeoaudit-pro.com/"
-                    target="_blank"
-                    class="project-slide"
-                >
-
+                <article class="project-slide">
                     <img
                         src="images/aeoaudit-pro.jpg"
-                        alt="Project 1"
+                        alt="AEO Audit Pro Web Application"
                     >
-
-                    <div class="overlay">
-                        <p>Next.js • TypeScript • Tailwind CSS</p>
+                    <div class="project-details">
+                        <h3>AEO Audit Pro</h3>
+                        <p class="tech-stack">Next.js • TypeScript • Tailwind CSS</p>
+                        <a href="https://www.aeoaudit-pro.com/" target="_blank" rel="noopener" class="project-link">
+                            Visit Site ↗
+                        </a>
                     </div>
-
-                </a>
+                </article>
 
                 <!-- PROJECT 2 -->
-
-                <a
-                    href="https://aucs2-4yaaa-aaaab-abqba-cai.icp.net/"
-                    target="_blank"
-                    class="project-slide"
-                >
-
+                <article class="project-slide">
                     <img
                         src="images/mindvault.jpg"
-                        alt="Project 2"
+                        alt="MindVault Web3 Application"
                     >
-
-                    <div class="overlay">
-                        <p>JavaScript • Motoko</p>
+                    <div class="project-details">
+                        <h3>MindVault</h3>
+                        <p class="tech-stack">JavaScript • Motoko • ICP</p>
+                        <a href="https://aucs2-4yaaa-aaaab-abqba-cai.icp.net/" target="_blank" rel="noopener" class="project-link">
+                            Visit App ↗
+                        </a>
                     </div>
-
-                </a>
+                </article>
 
                 <!-- PROJECT 3 -->
-
-                <a
-                    href="https://jnyc6-7yaaa-aaaak-qunkq-cai.icp.net"
-                    target="_blank"
-                    class="project-slide"
-                >
-
+                <article class="project-slide">
                     <img
                         src="images/garfieldcoin.jpg"
-                        alt="Project 3"
+                        alt="GarfieldCoin Web3 Project"
                     >
-
-                    <div class="overlay">
-                        <p>JavaScript • Motoko</p>
+                    <div class="project-details">
+                        <h3>GarfieldCoin</h3>
+                        <p class="tech-stack">JavaScript • Motoko</p>
+                        <a href="https://jnyc6-7yaaa-aaaak-qunkq-cai.icp.net" target="_blank" rel="noopener" class="project-link">
+                            Visit App ↗
+                        </a>
                     </div>
-
-                </a>
+                </article>
 
                 <!-- PROJECT 4 -->
-
-                <a
-                    href="https://elitebounce-w1w.caffeine.xyz/"
-                    target="_blank"
-                    class="project-slide"
-                >
-
+                <article class="project-slide">
                     <img
                         src="images/elite-bounce-client-tracking.jpg"
-                        alt="Project 4"
+                        alt="Elite Bounce Client Tracking App"
                     >
-
-                    <div class="overlay">
-                        <p>Caffeine AI</p>
+                    <div class="project-details">
+                        <h3>Elite Bounce Tracking</h3>
+                        <p class="tech-stack">Caffeine AI</p>
+                        <a href="https://elitebounce-w1w.caffeine.xyz/" target="_blank" rel="noopener" class="project-link">
+                            Visit App ↗
+                        </a>
                     </div>
-                </a>
+                </article>
 
                 <!-- PROJECT 5 -->
-
-                <a
-                    href="https://icp-lucky-draw-d8c.caffeine.xyz/"
-                    target="_blank"
-                    class="project-slide"
-                >
-
+                <article class="project-slide">
                     <img
                         src="images/icp-lucky-draw.jpg"
-                        alt="Project 5"
+                        alt="ICP Lucky Draw Application"
                     >
-
-                    <div class="overlay">
-                        <p>Caffeine AI</p>
+                    <div class="project-details">
+                        <h3>ICP Lucky Draw</h3>
+                        <p class="tech-stack">Caffeine AI • Web3</p>
+                        <a href="https://icp-lucky-draw-d8c.caffeine.xyz/" target="_blank" rel="noopener" class="project-link">
+                            Visit App ↗
+                        </a>
                     </div>
-                </a>
+                </article>
 
             </div>
 
-            <button class="carousel-btn next">
+            <button class="carousel-btn next" aria-label="Next Project">
                 &#10095;
             </button>
 
@@ -215,51 +199,59 @@
     </section>
 
     <!-- SKILLS SECTION -->
-
     <section id="skills">
 
-        <h2>Skills</h2>
+        <h2>Skills & Expertise</h2>
 
-        <div class="skills-grid">
+        <div class="skills-container">
 
-      
-          <span>HTML</span>
-          <span>CSS</span>
-          <span>JavaScript</span>
-          <span>C++</span>
-          <span>C#</span>
-          <span>Object-Oriented Programming</span>
-          <span>Data Structures & Algorithms</span>
-          <span>Responsive Design</span>
-          <span>REST APIs</span>
-          <span>SQL</span>
-          <span>Git & GitHub</span>
-          <span>Web3</span>
-          <span>Blockchain Fundamentals</span>
-          <span>ICP</span>
-          <span>Motoko</span>
-          <span>Smart Contracts</span>
-          <span>Crypto</span>
-          <span>SEO</span>
-          <span>Technical SEO</span>
-          <span>Keyword Research</span>
-          <span>Content Strategy</span>
-          <span>Digital Marketing</span>
-          <span>Growth Marketing</span>
-          <span>Community Building</span>
-          <span>Social Media Strategy</span>
-          <span>Problem Solving</span>
-          <span>Team Collaboration</span>
+            <div class="skills-group">
+                <h3>Development & Engineering</h3>
+                <div class="skills-grid">
+                    <span>JavaScript</span>
+                    <span>C++</span>
+                    <span>C#</span>
+                    <span>HTML / CSS</span>
+                    <span>REST APIs</span>
+                    <span>SQL</span>
+                    <span>Git & GitHub</span>
+                    <span>OOP</span>
+                    <span>Data Structures</span>
+                </div>
+            </div>
+
+            <div class="skills-group">
+                <h3>Web3 & Blockchain</h3>
+                <div class="skills-grid">
+                    <span>Blockchain Fundamentals</span>
+                    <span>ICP</span>
+                    <span>Motoko</span>
+                    <span>Smart Contracts</span>
+                    <span>Web3 Architecture</span>
+                </div>
+            </div>
+
+            <div class="skills-group">
+                <h3>SEO & Growth Marketing</h3>
+                <div class="skills-grid">
+                    <span>Technical SEO</span>
+                    <span>Keyword Research</span>
+                    <span>Content Strategy</span>
+                    <span>Digital Marketing</span>
+                    <span>Growth Marketing</span>
+                    <span>Community Building</span>
+                </div>
+            </div>
 
         </div>
 
     </section>
 
-    <!-- CONTACT -->
-
+    <!-- CONTACT SECTION -->
     <section class="contact-me">
 
         <h2>Get In Touch</h2>
+        <p>Feel free to reach out for collaborations or opportunities!</p>
 
         <div class="links">
 
@@ -267,6 +259,8 @@
                 class="icons-links"
                 href="https://www.linkedin.com/in/nino-herenda/"
                 target="_blank"
+                rel="noopener"
+                aria-label="LinkedIn Profile"
             >
                 <img
                     class="img-logo"
@@ -279,6 +273,8 @@
                 class="icons-links"
                 href="https://github.com/n1no01"
                 target="_blank"
+                rel="noopener"
+                aria-label="GitHub Profile"
             >
                 <img
                     class="img-logo"
@@ -290,6 +286,7 @@
             <a
                 class="icons-links"
                 href="mailto:ninogor@gmail.com"
+                aria-label="Send Email"
             >
                 <img
                     class="img-logo"
@@ -303,7 +300,6 @@
     </section>
 
     <!-- SCRIPTS -->
-
     <script src="script.js"></script>
 </body>
 </html>
