@@ -388,15 +388,6 @@ header {
     font-weight: 600;
 }
 
-.tech-tag {
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 0.75rem;
-    color: var(--accent-blue);
-    background: var(--accent-glow);
-    padding: 4px 8px;
-    border-radius: 6px;
-}
-
 .card-content p {
     color: var(--text-muted);
     font-size: 0.95rem;
