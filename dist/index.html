@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="keywords" content="Nino Herenda, Software Engineer, Portfolio, Web3, SEO">
-    <meta name="description" content="Portfolio website of Nino Herenda - Software Engineering Student & Developer from Sarajevo, Bosnia and Herzegovina.">
+    <meta name="keywords" content="Nino Herenda, AI Engineer, Software Engineer, Portfolio, Full-Stack Developer, SaaS, Web3">
+    <meta name="description" content="Portfolio of Nino Herenda - AI & Software Engineering Student building scalable web applications, AI automation tools, and SaaS products.">
 
     <!-- Open Graph / Social Media -->
-    <meta property="og:title" content="Nino Herenda | Software Engineer & Developer">
-    <meta property="og:description" content="Software Engineering Student focused on building reliable web applications, Web3 tools, and SEO solutions.">
+    <meta property="og:title" content="Nino Herenda | AI & Software Engineer">
+    <meta property="og:description" content="Software Engineering Student focused on AI integration, modern full-stack web applications, and automated SaaS products.">
     <meta property="og:type" content="website">
     <meta name="theme-color" content="#060913">
 
-    <title>Nino Herenda | Software Engineer</title>
+    <title>Nino Herenda | AI & Software Engineer</title>
 
     <link rel="icon" href="images/developer.png">
 
@@ -30,7 +30,7 @@
       "@context": "https://schema.org",
       "@type": "Person",
       "name": "Nino Herenda",
-      "jobTitle": "Software Engineering Student",
+      "jobTitle": "AI & Software Engineer Student",
       "url": "https://ninoherenda.com",
       "sameAs": [
         "https://github.com/n1no01",
@@ -38,13 +38,12 @@
       ],
       "knowsAbout": [
         "Software Engineering",
-        "Web Development",
-        "JavaScript",
+        "AI Integration",
+        "TypeScript",
+        "Next.js",
+        "Node.js",
         "SQL",
-        "Web3",
-        "SEO",
-        "Digital Marketing",
-        "Blockchain"
+        "Web3 Architecture"
       ],
       "alumniOf": "Faculty of Information Technologies Mostar"
     }
@@ -70,10 +69,10 @@
             <div class="hero-text">
                 <div class="location-tag">📍 Sarajevo, Bosnia and Herzegovina</div>
                 <h1 id="typing-title">Hi, I'm Nino</h1>
-                <p class="hero-subtitle">Software Engineer • Web3 • SEO</p>
+                <p class="hero-subtitle">AI & Software Engineer | AI Automation • SaaS • Web</p>
                 <p class="hero-desc">
-                    Software engineering student focused on building reliable, well-structured applications, 
-                    decentralized Web3 tools, and high-performance SEO/AEO solutions.
+                    Software engineering student focused on building AI-powered SaaS products, 
+                    full-stack web applications, and automated workflow systems. Hands-on experience taking technical products from architecture to deployment.
                 </p>
 
                 <div class="hero-buttons">
@@ -88,27 +87,46 @@
         </div>
     </section>
 
-    <!-- PROJECTS SECTION (BENTO GRID) -->
+    <!-- PROJECTS SECTION -->
     <section id="projects" class="section-container">
         <div class="section-header">
-            <h2>// Featured Projects</h2>
-            <p>Production apps, Web3 protocols, and custom tools.</p>
+            <h2>// Featured Systems & SaaS</h2>
+            <p>Shipped products, AI integration, and core engineering software.</p>
         </div>
 
-        <div class="bento-grid">
-
-            <!-- Project 1 -->
-            <article class="bento-card">
-                <img src="images/aeoaudit-pro.jpg" alt="AEO Audit Pro">
-                <div class="card-content">
-                    <div class="card-top">
+        <!-- PRIMARY FEATURED CARD -->
+        <article class="bento-card featured-hero-card">
+         <div class="featured-img-wrapper vector-cover">
+    <div class="cover-content">
+        <h1 class="cover-title">AEO <span class="accent-text">Audit</span> Pro</h1>
+        <p class="cover-subtitle">AI-powered Answer Engine Optimization tool</p>
+    </div>
+</div>
+            <div class="card-content">
+                <div class="card-top">
+                    <div>
+                        <span class="badge-primary">PRIMARY FEATURED PROJECT</span>
                         <h3>AEO Audit Pro</h3>
-                        <span class="tech-tag">Next.js • TS</span>
                     </div>
-                    <p>AI-powered Answer Engine Optimization auditing platform built for modern web visibility.</p>
-                    <a href="https://aeoaudit-pro.com/" target="_blank" rel="noopener" class="card-link">Launch App ↗</a>
+                    <span class="tech-tag">Next.js • TypeScript • LLM APIs</span>
                 </div>
-            </article>
+                <p>
+                    An AI-powered Answer Engine Optimization auditing platform built to evaluate web content visibility for AI search crawlers. Features automated semantic evaluations, structured data pipelines, and an integrated custom Chrome Extension.
+                </p>
+                <div class="featured-specs">
+                    <span>⚡ Custom Chrome Extension</span>
+                    <span>🤖 Gemini & LLM Pipeline Integration</span>
+                    <span>☁️ Vercel Continuous Deployment</span>
+                </div>
+                <a href="https://aeoaudit-pro.com/" target="_blank" rel="noopener" class="card-link">Launch SaaS Platform ↗</a>
+            </div>
+        </article>
+
+        <!-- CORE ENGINEERING PROJECTS GRID -->
+        <div class="sub-header">
+            <h3>Core Engineering Projects</h3>
+        </div>
+        <div class="bento-grid">
 
             <!-- Project 2 -->
             <article class="bento-card">
@@ -116,9 +134,9 @@
                 <div class="card-content">
                     <div class="card-top">
                         <h3>GeoLock</h3>
-                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">JS • PWA • Supabase</span>
                     </div>
-                    <p>Progressive Web App designed for offline-capable field tracking and mapping operations.</p>
+                    <p>Progressive Web Application built for offline-first geolocation tracking, custom GIS mapping layers (Leaflet.js), and biometric security authentication.</p>
                     <a href="https://terenska-evidencija.vercel.app/" target="_blank" rel="noopener" class="card-link">Launch App ↗</a>
                 </div>
             </article>
@@ -129,23 +147,10 @@
                 <div class="card-content">
                     <div class="card-top">
                         <h3>MindVault</h3>
-                        <span class="tech-tag">Motoko • ICP</span>
+                        <span class="tech-tag">Motoko • Web3</span>
                     </div>
-                    <p>Decentralized note-taking app running natively on the Internet Computer Protocol.</p>
+                    <p>Decentralized knowledge vault and note-taking application deployed natively on the Internet Computer Protocol (ICP) blockchain.</p>
                     <a href="https://aucs2-4yaaa-aaaab-abqba-cai.icp0.io/" target="_blank" rel="noopener" class="card-link">Launch App ↗</a>
-                </div>
-            </article>
-
-            <!-- Project 4 -->
-            <article class="bento-card">
-                <img src="images/gfc.jpg" alt="GarfieldCoin">
-                <div class="card-content">
-                    <div class="card-top">
-                        <h3>GarfieldCoin</h3>
-                        <span class="tech-tag">Motoko • ICP</span>
-                    </div>
-                    <p>Custom Web3 token and smart contract ecosystem implemented on ICP architecture.</p>
-                    <a href="https://jnyc6-7yaaa-aaaak-qunkq-cai.icp.net" target="_blank" rel="noopener" class="card-link">Launch App ↗</a>
                 </div>
             </article>
 
@@ -154,24 +159,43 @@
                 <img src="images/elite-bounce-client-tracking.jpg" alt="Elite Bounce Tracking">
                 <div class="card-content">
                     <div class="card-top">
-                        <h3>Elite Bounce Tracking</h3>
-                        <span class="tech-tag">Caffeine AI</span>
+                        <h3>Elite Bounce</h3>
+                        <span class="tech-tag">ICP • Web3</span>
                     </div>
-                    <p>Data-driven performance tracking application built to optimize athletic progression, manage training workloads, and monitor explosive jump metrics.</p>
+                    <p>Performance analytics tool designed to track athletic progress, calculate explosive jump metrics, and manage training workloads.</p>
                     <a href="https://elitebounce-w1w.caffeine.xyz/" target="_blank" rel="noopener" class="card-link">Launch App ↗</a>
                 </div>
             </article>
 
+        </div>
+
+        <!-- EXPERIMENTAL / WEB3 PROJECTS -->
+        <div class="sub-header secondary-tier">
+            <h3>Experimental & Web3 Builds</h3>
+        </div>
+        <div class="bento-grid compact">
+
+            <!-- Project 4 -->
+            <article class="bento-card compact-card">
+                <div class="card-content">
+                    <div class="card-top">
+                        <h3>GarfieldCoin</h3>
+                        <span class="tech-tag">Motoko • Web3</span>
+                    </div>
+                    <p>Custom Web3 token logic and smart contract architecture implemented on decentralized ICP protocols.</p>
+                    <a href="https://jnyc6-7yaaa-aaaak-qunkq-cai.icp.net" target="_blank" rel="noopener" class="card-link">View Contract ↗</a>
+                </div>
+            </article>
+
             <!-- Project 6 -->
-            <article class="bento-card">
-                <img src="images/icp-lucky-draw.jpg" alt="ICP Lucky Draw">
+            <article class="bento-card compact-card">
                 <div class="card-content">
                     <div class="card-top">
                         <h3>ICP Lucky Draw</h3>
-                        <span class="tech-tag">Caffeine AI</span>
+                        <span class="tech-tag">ICP • CaffeineAI</span>
                     </div>
-                    <p>Decentralized weekly lottery powered by Internet Computer smart contracts.</p>
-                    <a href="https://icp-lucky-draw-d8c.caffeine.xyz/" target="_blank" rel="noopener" class="card-link">Launch App ↗</a>
+                    <p>Decentralized weekly raffle engine executed autonomously via ICP smart contract scripts.</p>
+                    <a href="https://icp-lucky-draw-d8c.caffeine.xyz/" target="_blank" rel="noopener" class="card-link">View App ↗</a>
                 </div>
             </article>
 
@@ -204,26 +228,26 @@
     <section class="section-container">
         <div class="section-header">
             <h2>// Tech Stack Matrix</h2>
-            <p>Core competencies & growth infrastructure.</p>
+            <p>Engineering skill set & infrastructure focus.</p>
         </div>
 
         <div class="matrix-grid">
             <div class="matrix-group">
-                <h3>Core Engineering</h3>
+                <h3>Core & AI Engineering</h3>
                 <div class="tags-box">
-                    <span>JavaScript (ES6+)</span><span>C++</span><span>C#</span><span>HTML5 / CSS3</span><span>REST APIs</span><span>SQL</span><span>Git & GitHub</span><span>OOP</span>
+                    <span>TypeScript</span><span>JavaScript (ES6+)</span><span>React / Next.js</span><span>Node.js</span><span>LLM APIs (Gemini/OpenAI)</span><span>REST APIs</span><span>SQL</span><span>Git & GitHub</span>
                 </div>
             </div>
             <div class="matrix-group">
-                <h3>Web3 / Decentralization</h3>
+                <h3>Foundational & Backend</h3>
                 <div class="tags-box">
-                    <span>Internet Computer (ICP)</span><span>Motoko</span><span>Smart Contracts</span><span>Web3 Architecture</span>
+                    <span>Supabase</span><span>PostgreSQL</span><span>C++</span><span>C#</span><span>PWA Architecture</span><span>Vercel</span>
                 </div>
             </div>
             <div class="matrix-group">
-                <h3>Growth & Optimization</h3>
+                <h3>Optimization & Related</h3>
                 <div class="tags-box">
-                    <span>Technical SEO</span><span>AEO Optimization</span><span>Keyword Research</span><span>Growth Marketing</span>
+                    <span>Web3 & Smart Contracts</span><span>Motoko</span><span>Technical SEO</span><span>AEO Optimization</span>
                 </div>
             </div>
         </div>
