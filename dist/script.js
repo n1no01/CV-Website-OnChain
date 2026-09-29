@@ -59,8 +59,9 @@ function processCommand(rawCmd) {
   2. GeoLock -> https://terenska-evidencija.vercel.app/
   3. MindVault -> https://aucs2-4yaaa-aaaab-abqba-cai.icp0.io/
   4. GarfieldCoin -> https://jnyc6-7yaaa-aaaak-qunkq-cai.icp.net
-  5. Elite Bounce Tracking -> https://elitebounce-w1w.caffeine.xyz/
-  6. ICP Lucky Draw -> https://icp-lucky-draw-d8c.caffeine.xyz/`;
+  5. Elite Bounce -> https://elitebounce.fit
+  6. Budžetske Krtice -> https://budzetske-krtice.vercel.app/
+  7. ICP Lucky Draw -> https://icp-lucky-draw-d8c.caffeine.xyz/`;
             break;
 
         case 'skills':
